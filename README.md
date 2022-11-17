@@ -29,6 +29,24 @@ Feel free to fork this and customize for your needs. This container is great to 
   $ make help
   ```
 
+** In order to run the app you need to first build the Docker Images
+
+```
+  $ make build
+```
+
+** Then proceed to running the Interactive Docker container on your terminal to create the session:
+
+```
+  $ make interactive
+```
+
+### To note in order to start the penetration test, after running an interactive Docker session run:
+
+```
+  $ arachni https://whr.loans
+```
+
 4. Copy binary stub to your $PATH (like `/usr/local/bin`)
   ```
   $ make install-stub
